@@ -1,0 +1,98 @@
+body {
+    background-color: #c7b7a4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color:#cca700;
+    padding:  1rem;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+}
+
+a {
+    color:#db8f00;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+section {
+    color:rgb(70, 70, 70);
+    padding: 2rem;
+    text-align: justify
+}
+.projeto {
+    border: 1px solid #cfcfcf;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 1rem;
+}
+form input {
+    padding: 0,5rem;
+    margin-top: 0,5rem;
+}
+form .texturea {
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+
+}
+form button {
+    margin-top: 1rem;
+    padding: 0,5rem;
+    background-color: #6b6b6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.up_galeria {
+    display: grid;
+    background-color: #fff;
+    border-radius: 20px;
+    grid-template-columns: repeat(1,5, 1,5fr);
+    grid-auto-rows: 400px;
+    margin: 1rem 0;
+}
+.D_acadêmico {
+    background-color:#fff;
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-inline: 1rem;
+    margin: 1rem 0;
+}
+.D_ilustração {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-inline: 1rem;
+    margin: 1rem 0;
+}
+.contato {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
